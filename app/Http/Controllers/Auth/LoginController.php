@@ -30,7 +30,7 @@ class LoginController extends Controller
         }
 
         return back()->withErrors([
-            'login' => 'Kredensial tidak valid.',
+            'login' => 'Kredensial not verived.',
         ])->onlyInput('login');
     }
 
